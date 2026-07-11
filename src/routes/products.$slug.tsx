@@ -3,7 +3,7 @@ import { CheckCircle2, MapPin, Package, Scale } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { ProductCard } from "@/components/site/ProductCard";
 import { CtaSection } from "@/components/site/CtaSection";
-import { PRODUCTS } from "@/lib/site-data";
+import { PRODUCTS, type Product } from "@/lib/site-data";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: ({ params }) => {
@@ -61,7 +61,7 @@ function ProductNotFound() {
 }
 
 function ProductDetailPage() {
-  const { product } = Route.useLoaderData();
+  const { product } = Route.useLoaderData() as { product: Product };
   const related = PRODUCTS.filter((p) => p.slug !== product.slug).slice(0, 3);
 
   return (
