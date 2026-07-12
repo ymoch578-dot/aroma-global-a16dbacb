@@ -12,12 +12,14 @@ import galleryContainer from "@/assets/gallery-container.jpg";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
+  brand: "Spices Export Grade",
   tagline: "Premium Indonesian Spices for the Global Market",
-  email: "export@suksesekspormandiri.com",
-  whatsapp: "+62 812 3456 7890",
+  email: "sales@spices.suksesekspormandiri.com",
+  emailAlt: "sales@suksesekspormandiri.com",
+  whatsapp: "+62 851 2448 0871",
   whatsappLink:
-    "https://wa.me/6281234567890?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20spice%20products.",
-  location: "Jakarta, Indonesia",
+    "https://wa.me/6285124480871?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20spice%20products.",
+  location: "Malang Regency, East Java Province, Indonesia",
 };
 
 export interface Product {
