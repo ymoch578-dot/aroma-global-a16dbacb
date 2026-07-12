@@ -213,7 +213,7 @@ export const FAQS = [
   },
   {
     q: "Which shipping terms do you work with?",
-    a: "We commonly quote FOB Indonesian ports (Jakarta, Surabaya, Panjang, Belawan) and can arrange CFR/CIF to your destination port on request.",
+    a: "We commonly quote FOB Indonesian ports and can arrange CFR/CIF to your destination port on request.",
   },
   {
     q: "What payment terms do you accept?",
