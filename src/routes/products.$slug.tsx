@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { CheckCircle2, MapPin, Package, Scale } from "lucide-react";
+import { CheckCircle2, Package, Scale } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { ProductCard } from "@/components/site/ProductCard";
 import { CtaSection } from "@/components/site/CtaSection";
