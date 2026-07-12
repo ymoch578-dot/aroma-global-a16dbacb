@@ -14,10 +14,9 @@ import {
 } from "lucide-react";
 import heroImg from "@/assets/hero-spices.jpg";
 import { Reveal } from "@/components/site/Reveal";
-import { Counter } from "@/components/site/Counter";
 import { ProductCard } from "@/components/site/ProductCard";
 import { CtaSection } from "@/components/site/CtaSection";
-import { PRODUCTS, STATS, PROCESS_STEPS, WHY_US, GALLERY, FAQS } from "@/lib/site-data";
+import { PRODUCTS, PROCESS_STEPS, WHY_US, GALLERY, FAQS } from "@/lib/site-data";
 import {
   Accordion,
   AccordionContent,
@@ -99,49 +98,32 @@ function Index() {
         </div>
       </section>
 
-      {/* COMPANY OVERVIEW + STATS */}
+      {/* COMPANY OVERVIEW */}
       <section className="py-20 lg:py-28">
-        <div className="container-site">
-          <div className="grid items-center gap-12 lg:grid-cols-2">
-            <Reveal>
-              <p className="eyebrow">Who We Are</p>
-              <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-foreground lg:text-4xl">
-                From Indonesia's Spice Islands to Your Market
-              </h2>
-              <p className="mt-5 leading-relaxed text-muted-foreground">
-                PT Sukses Ekspor Mandiri is an Indonesian spice export company connecting
-                the archipelago's finest growing regions — Sumatra, Sulawesi, Bangka, and
-                the Maluku Islands — with importers, food manufacturers, and distributors
-                across the globe.
-              </p>
-              <p className="mt-4 leading-relaxed text-muted-foreground">
-                We work directly with farmer partners at origin, control quality at every
-                step, and handle export documentation end-to-end — so buying Indonesian
-                spices feels simple, transparent, and reliable.
-              </p>
-              <Link
-                to="/about"
-                className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-gold"
-              >
-                Learn more about us <ArrowRight size={16} />
-              </Link>
-            </Reveal>
-            <Reveal delay={0.15}>
-              <div className="grid grid-cols-2 gap-5">
-                {STATS.map((s) => (
-                  <div
-                    key={s.label}
-                    className="rounded-3xl bg-secondary p-8 text-center shadow-[var(--shadow-card)]"
-                  >
-                    <p className="font-display text-4xl font-bold text-primary lg:text-5xl">
-                      <Counter value={s.value} suffix={s.suffix} />
-                    </p>
-                    <p className="mt-2 text-sm font-medium text-muted-foreground">{s.label}</p>
-                  </div>
-                ))}
-              </div>
-            </Reveal>
-          </div>
+        <div className="container-site max-w-3xl text-center">
+          <Reveal>
+            <p className="eyebrow">Who We Are</p>
+            <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-foreground lg:text-4xl">
+              From Indonesia's Spice Islands to Your Market
+            </h2>
+            <p className="mt-5 leading-relaxed text-muted-foreground">
+              PT Sukses Ekspor Mandiri is an Indonesian spice export company connecting
+              the archipelago's finest growing regions — Sumatra, Sulawesi, Bangka, and
+              the Maluku Islands — with importers, food manufacturers, and distributors
+              across the globe.
+            </p>
+            <p className="mt-4 leading-relaxed text-muted-foreground">
+              We work directly with farmer partners at origin, control quality at every
+              step, and handle export documentation end-to-end — so buying Indonesian
+              spices feels simple, transparent, and reliable.
+            </p>
+            <Link
+              to="/about"
+              className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-gold"
+            >
+              Learn more about us <ArrowRight size={16} />
+            </Link>
+          </Reveal>
         </div>
       </section>
 
@@ -245,13 +227,13 @@ function Index() {
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-muted-foreground">
               Our spices ship from Indonesian ports to markets in Asia, the Middle East,
-              Europe, and the Americas — supported by reliable logistics coordination and
+              Europe, Africa, and America — supported by reliable logistics coordination and
               complete export documentation.
             </p>
           </Reveal>
           <Reveal delay={0.15} className="mt-12">
-            <div className="mx-auto grid max-w-4xl grid-cols-2 gap-5 sm:grid-cols-4">
-              {["Asia Pacific", "Middle East", "Europe", "Americas"].map((region) => (
+            <div className="mx-auto grid max-w-5xl grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5">
+              {["Asia Pacific", "Middle East", "Europe", "Africa", "America"].map((region) => (
                 <div
                   key={region}
                   className="rounded-3xl border border-border bg-card p-7 shadow-[var(--shadow-card)]"
