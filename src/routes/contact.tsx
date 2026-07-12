@@ -85,7 +85,7 @@ function ContactPage() {
       "",
       d.message,
     ].filter(Boolean);
-    const wa = `https://wa.me/6281234567890?text=${encodeURIComponent(lines.join("\n"))}`;
+    const wa = `${COMPANY.whatsappLink.split("?")[0]}?text=${encodeURIComponent(lines.join("\n"))}`;
     window.open(wa, "_blank", "noopener");
     setSent(true);
   };
