@@ -46,7 +46,7 @@ export function Navbar() {
               solid ? "text-primary" : "text-primary-foreground"
             }`}
           >
-            Sukses Ekspor Mandiri
+            Spices Export Grade
           </span>
         </Link>
 
