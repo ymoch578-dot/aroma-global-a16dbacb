@@ -60,6 +60,7 @@ export interface Product {
   popular: boolean;
   short: string;
   overview: string;
+  description: string;
   image: string;
   origin: string;
   specifications: { label: string; value: string }[];
