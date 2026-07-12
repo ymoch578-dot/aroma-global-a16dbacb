@@ -80,29 +80,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "PT Sukses Ekspor Mandiri — Premium Indonesian Spice Exporter" },
+      { title: "Premium Indonesian Spice Exporter" },
       {
         name: "description",
         content:
           "Premium Indonesian spices for the global market. Trusted B2B exporter of cinnamon, clove, nutmeg, black pepper, and white pepper.",
       },
       { name: "author", content: "PT Sukses Ekspor Mandiri" },
-      { property: "og:title", content: "PT Sukses Ekspor Mandiri — Premium Indonesian Spice Exporter" },
+      { property: "og:title", content: "Premium Indonesian Spice Exporter" },
       {
         property: "og:description",
         content:
-          "Trusted export partner supplying premium Indonesian cinnamon, clove, nutmeg, and pepper to importers worldwide.",
+          "Premium Indonesian spices for the global market. Trusted B2B exporter of cinnamon, clove, nutmeg, black pepper, and white pepper.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "PT Sukses Ekspor Mandiri" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Premium Indonesian Spice Exporter" },
+      { name: "twitter:description", content: "Premium Indonesian spices for the global market. Trusted B2B exporter of cinnamon, clove, nutmeg, black pepper, and white pepper." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1c80e551-f10f-484e-88c1-3419bf5f85d4/id-preview-b7380dc3--0aa3eed3-7953-4b39-8d4f-0b06ae749a77.lovable.app-1783852524257.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1c80e551-f10f-484e-88c1-3419bf5f85d4/id-preview-b7380dc3--0aa3eed3-7953-4b39-8d4f-0b06ae749a77.lovable.app-1783852524257.png" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
