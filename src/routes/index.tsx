@@ -104,18 +104,29 @@ function Index() {
           <Reveal>
             <p className="eyebrow">Who We Are</p>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-foreground lg:text-4xl">
-              From Indonesia's Spice Islands to Your Market
+              A Trusted Partner for Premium Indonesian Spices
             </h2>
             <p className="mt-5 leading-relaxed text-muted-foreground">
-              PT Sukses Ekspor Mandiri is an Indonesian spice export company connecting
-              the archipelago's finest growing regions — Sumatra, Sulawesi, Bangka, and
-              the Maluku Islands — with importers, food manufacturers, and distributors
-              across the globe.
+              PT Sukses Ekspor Mandiri is an Indonesian spice export company dedicated to
+              bringing the world closer to the rich flavors and aromas of Indonesia's finest
+              spices. We specialize in supplying high-quality cinnamon, clove, nutmeg, and
+              black and white pepper to importers, food manufacturers, distributors, and
+              retailers around the world who value consistency, authenticity, and professional
+              service.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              We work directly with farmer partners at origin, control quality at every
-              step, and handle export documentation end-to-end — so buying Indonesian
-              spices feels simple, transparent, and reliable.
+              Our strength lies in building transparent, long-term relationships with both
+              local partners and international buyers. From careful sourcing and strict quality
+              control to professional packaging and complete export documentation, every step
+              of our process is designed to give our customers confidence and peace of mind.
+            </p>
+            <p className="mt-4 leading-relaxed text-muted-foreground">
+              We understand that every market has different needs and standards. That is why
+              we take a flexible, customer-focused approach — offering tailored packaging,
+              reliable shipment schedules, and responsive communication throughout every order.
+              With a commitment to integrity and continuous improvement, we aim to be more than
+              just a supplier: we strive to be a dependable export partner that helps your
+              business grow with spices you can trust.
             </p>
             <Link
               to="/about"
