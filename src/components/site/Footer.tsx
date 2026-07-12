@@ -57,9 +57,14 @@ export function Footer() {
           <ul className="space-y-3 text-sm text-primary-foreground/80">
             <li className="flex items-start gap-3">
               <Mail size={16} className="mt-0.5 shrink-0 text-gold" />
-              <a href={`mailto:${COMPANY.email}`} className="hover:text-gold">
-                {COMPANY.email}
-              </a>
+              <div className="flex flex-col gap-1">
+                <a href={`mailto:${COMPANY.email}`} className="hover:text-gold">
+                  {COMPANY.email}
+                </a>
+                <a href={`mailto:${COMPANY.emailAlt}`} className="hover:text-gold">
+                  {COMPANY.emailAlt}
+                </a>
+              </div>
             </li>
             <li className="flex items-start gap-3">
               <Phone size={16} className="mt-0.5 shrink-0 text-gold" />
