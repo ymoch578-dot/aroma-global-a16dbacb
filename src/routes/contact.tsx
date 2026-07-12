@@ -213,6 +213,9 @@ function ContactPage() {
                 <a href={`mailto:${COMPANY.email}`} className="mt-1 block text-sm text-primary hover:text-gold">
                   {COMPANY.email}
                 </a>
+                <a href={`mailto:${COMPANY.emailAlt}`} className="mt-1 block text-sm text-primary hover:text-gold">
+                  {COMPANY.emailAlt}
+                </a>
               </div>
               <div className="rounded-3xl bg-secondary p-7">
                 <MessageCircle className="text-gold" size={24} />
@@ -231,9 +234,6 @@ function ContactPage() {
                 <MapPin className="text-gold" size={24} />
                 <h3 className="mt-3 font-display text-lg font-bold text-foreground">Location</h3>
                 <p className="mt-1 text-sm text-muted-foreground">{COMPANY.location}</p>
-                <p className="mt-2 text-xs text-muted-foreground">
-                  Shipping from Jakarta, Surabaya, Panjang & Belawan ports.
-                </p>
               </div>
             </div>
           </Reveal>
