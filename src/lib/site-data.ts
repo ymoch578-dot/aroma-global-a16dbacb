@@ -22,6 +22,36 @@ export const COMPANY = {
   location: "Malang Regency, East Java Province, Indonesia",
 };
 
+const CINNAMON_DESCRIPTION = `Indonesian cassia cinnamon is prized around the world for its warm, sweet aroma and deep golden-brown color. Our cinnamon is harvested from mature Cinnamomum burmannii trees, where the inner bark is carefully peeled, cleaned, and dried under controlled conditions to preserve its essential oil content. The result is a fragrant, versatile spice that brings a familiar comfort to sweet and savory applications alike.
+
+We offer several present forms to match your market needs: elegant rolled quills for premium retail, uniform sticks for food service and gifting, broken pieces for industrial extraction, and finely ground powder for bakery and seasoning manufacturers. Each batch is sorted by hand and machine-cleaned to remove bark residue, ensuring a clean, uniform appearance that meets export standards.
+
+Cinnamon is widely used in bakery products, confectionery, flavored beverages, spice blends, and aromatherapy products. Its essential oil is also a valuable raw material for flavoring, fragrance, and personal-care industries. We welcome trial orders and can customize packing under your private label.`;
+
+const CLOVE_DESCRIPTION = `Clove is one of Indonesia's most iconic spices, recognized by its nail-shaped flower buds and powerful, warming aroma. Our cloves are harvested at just the right moment of maturity, when the buds are still closed and richest in essential oil. After harvest, they are carefully sun-dried and cleaned to remove stems, leaves, and other foreign matter, leaving only dark, whole buds with a strong, aromatic profile.
+
+This spice is valued for its high eugenol content, which gives clove its distinctive warmth and makes it indispensable in the food, seasoning, and extraction industries. The buds are available in whole form for retail, spice grinding, and premium culinary use, and can also be prepared in customized sizes or ground according to buyer requirements.
+
+Clove is essential in bakery, curry blends, spice mixes, and beverage flavoring. It is also used in the production of essential oils, oleoresins, and personal-care products. We are happy to discuss your preferred grade, packing format, and delivery schedule to build a reliable supply partnership.`;
+
+const NUTMEG_DESCRIPTION = `Nutmeg delivers a rich, subtly sweet aroma with warm, woody undertones that have made it a staple in kitchens and food factories worldwide. Our nutmeg is selected from fully mature fruits, then dried and graded to preserve its full flavor and attractive appearance. We supply whole nutmeg both in-shell and shelled, as well as broken and ground forms to suit different processing needs.
+
+The whole kernel is popular for premium retail, gourmet food service, and traditional spice markets. Industrial buyers often prefer broken pieces or powder for use in sauces, seasonings, bakery fillings, and extraction. We sort each batch by size, color, and aroma to ensure consistency and cleanliness, and we can arrange additional testing or treatment as required by your destination market.
+
+Nutmeg is widely used in bakery, dairy, processed foods, beverages, and spice blends. Its essential oil and oleoresin are also valuable in the fragrance and flavor industries. Let us know your specifications and packaging preferences, and we will prepare a tailored offer.`;
+
+const BLACK_PEPPER_DESCRIPTION = `Black pepper is the world's most traded spice, and Indonesian Lampung pepper is especially respected for its bold, well-rounded heat and complex aroma. Our black pepper consists of fully matured berries that are carefully harvested, washed, and sun-dried to develop their characteristic dark, wrinkled skin and sharp pungency.
+
+We supply clean, machine-sorted black pepper in whole, cracked, and ground forms. Whole pepper is ideal for grinders, premium retail, and gourmet markets, while cracked and ground grades are preferred by manufacturers of seasonings, sauces, processed meats, and ready-to-eat foods. Each batch is checked for moisture, density, and foreign matter to ensure it performs consistently in industrial and retail use.
+
+Black pepper is fundamental to savory food manufacturing, spice blends, meat processing, snacks, and food service. It is also a source of piperine used in extraction and nutritional applications. We can adapt the grade, mesh size, and packing to your requirements.`;
+
+const WHITE_PEPPER_DESCRIPTION = `White pepper offers a cleaner, more delicate heat than black pepper, making it the preferred choice for light-colored sauces, soups, and premium food products. Our white pepper is produced by water-retting fully ripened berries, then removing the outer skin and drying the inner seed until it reaches a creamy, uniform color with a sharp, refined flavor.
+
+The Muntok style is especially valued for its consistent appearance and smooth, lingering heat without the dark specks that black pepper can leave. We supply whole, cracked, and finely ground white pepper suitable for premium seasoning, processed seafood, dairy-based sauces, and international food-service chains. Each batch is washed and sorted to control moisture, black berry count, and impurities.
+
+White pepper is essential in European and Asian cuisines, light sauces, mayonnaise, processed meats, and ready meals. We are ready to accommodate custom granulation, packing, and private-label requirements for your market.`;
+
 export interface Product {
   slug: string;
   name: string;
