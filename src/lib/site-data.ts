@@ -15,7 +15,7 @@ export const COMPANY = {
   brand: "Spices Export Grade",
   tagline: "Premium Indonesian Spices for the Global Market",
   email: "sales@spices.suksesekspormandiri.com",
-  emailAlt: "sales@suksesekspormandiri.com",
+  emailAlt: "salessuksesekspormandiri@gmail.com",
   whatsapp: "+62 851 2448 0871",
   whatsappLink:
     "https://wa.me/6285124480871?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20spice%20products.",
