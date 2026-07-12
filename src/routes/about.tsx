@@ -78,24 +78,41 @@ function AboutPage() {
         <div className="container-site grid gap-8 lg:grid-cols-2">
           <Reveal>
             <div className="h-full rounded-3xl bg-card p-10 shadow-[var(--shadow-card)]">
-              <Compass className="text-gold" size={30} />
-              <h2 className="mt-4 font-display text-2xl font-bold text-foreground">Our Mission</h2>
+              <Eye className="text-gold" size={30} />
+              <h2 className="mt-4 font-display text-2xl font-bold text-foreground">Our Vision</h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                To deliver premium Indonesian spices to global markets with consistent
-                quality, fair value, and a buying experience built on clarity and trust —
-                while creating sustainable value for our farmer partners.
+                To become a trusted and globally competitive Indonesian international
+                export company in providing spices, while delivering added value to
+                business partners worldwide.
               </p>
             </div>
           </Reveal>
           <Reveal delay={0.12}>
             <div className="h-full rounded-3xl bg-card p-10 shadow-[var(--shadow-card)]">
-              <Eye className="text-gold" size={30} />
-              <h2 className="mt-4 font-display text-2xl font-bold text-foreground">Our Vision</h2>
-              <p className="mt-4 leading-relaxed text-muted-foreground">
-                To become one of the most trusted names in Indonesian spice export —
-                recognized by international buyers for reliability, quality, and long-term
-                partnership.
-              </p>
+              <Compass className="text-gold" size={30} />
+              <h2 className="mt-4 font-display text-2xl font-bold text-foreground">Our Mission</h2>
+              <ol className="mt-4 list-decimal space-y-3 pl-5 leading-relaxed text-muted-foreground marker:font-semibold marker:text-primary">
+                <li>
+                  Build long-term relationships with international buyers through
+                  professional service and consistent product quality.
+                </li>
+                <li>
+                  Strengthen partnerships with local producers to create a stable and
+                  transparent supply chain.
+                </li>
+                <li>
+                  Provide products that meet international quality standards with on-time
+                  delivery.
+                </li>
+                <li>
+                  Serve as a bridge between Indonesian producers and global markets, with
+                  a commitment to maintaining integrity in every transaction.
+                </li>
+                <li>
+                  Continuously expand our product portfolio in response to global market
+                  demands.
+                </li>
+              </ol>
             </div>
           </Reveal>
         </div>
