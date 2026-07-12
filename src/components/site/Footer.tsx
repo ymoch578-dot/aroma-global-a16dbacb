@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="bg-primary-deep text-primary-foreground">
       <div className="container-site grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-display text-2xl font-bold">Sukses Ekspor Mandiri</p>
+          <p className="font-display text-2xl font-bold">Spices Export Grade</p>
           <p className="mt-3 text-sm leading-relaxed text-primary-foreground/70">
             {COMPANY.tagline}. Supplying premium Indonesian spices to importers, food
             manufacturers, and distributors worldwide.
