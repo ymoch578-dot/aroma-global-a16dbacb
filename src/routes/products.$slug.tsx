@@ -93,7 +93,7 @@ function ProductDetailPage() {
           <Reveal delay={0.15}>
             <img
               src={product.image}
-              alt={`${product.name} — premium export grade from ${product.origin}`}
+              alt={`${product.name} — premium export grade Indonesian spice`}
               width={800}
               height={800}
               className="mx-auto w-full max-w-md rounded-3xl object-cover shadow-[var(--shadow-soft)]"
