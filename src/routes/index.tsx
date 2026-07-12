@@ -228,13 +228,13 @@ function Index() {
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-muted-foreground">
               Our spices ship from Indonesian ports to markets in Asia, the Middle East,
-              Europe, and the Americas — supported by reliable logistics coordination and
+              Europe, Africa, and America — supported by reliable logistics coordination and
               complete export documentation.
             </p>
           </Reveal>
           <Reveal delay={0.15} className="mt-12">
-            <div className="mx-auto grid max-w-4xl grid-cols-2 gap-5 sm:grid-cols-4">
-              {["Asia Pacific", "Middle East", "Europe", "Americas"].map((region) => (
+            <div className="mx-auto grid max-w-5xl grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5">
+              {["Asia Pacific", "Middle East", "Europe", "Africa", "America"].map((region) => (
                 <div
                   key={region}
                   className="rounded-3xl border border-border bg-card p-7 shadow-[var(--shadow-card)]"
