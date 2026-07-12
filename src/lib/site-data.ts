@@ -79,17 +79,12 @@ export const PRODUCTS: Product[] = [
     short:
       "Aromatic Indonesian cassia cinnamon with rich oil content, available as sticks, quills, and broken grades.",
     overview:
-      "Our cinnamon is sourced from the highlands of Sumatra, where volcanic soil and ideal climate produce cassia bark with an exceptionally sweet aroma and high essential oil content. Carefully harvested, sun-dried, and hand-sorted to meet international export grades.",
+      "Our cassia cinnamon is carefully harvested, sun-dried, and hand-sorted to meet international export expectations. It is valued for its warm, sweet aroma and deep golden-brown color, making it a versatile choice for premium food and flavoring applications.",
+    description: CINNAMON_DESCRIPTION,
     image: cinnamonImg,
-    origin: "Kerinci, Sumatra, Indonesia",
-    specifications: [
-      { label: "Type", value: "Cassia Vera (KA, KB, KC grades)" },
-      { label: "Form", value: "Sticks, quills, broken, powder" },
-      { label: "Moisture", value: "Max 13.5%" },
-      { label: "Oil Content", value: "1.5% – 4%" },
-      { label: "Length", value: "8 cm – 30 cm (customizable)" },
-    ],
-    packaging: ["Carton box 10–20 kg", "PP woven bag 25 kg", "Custom private label"],
+    origin: "Indonesia",
+    specifications: [],
+    packaging: ["Available on request: PP woven bags, carton boxes, vacuum packs, private label"],
     moq: "1 x 20 ft container (approx. 8–10 tons) — smaller trial orders negotiable",
     applications: ["Bakery & confectionery", "Beverage & tea blends", "Seasoning industry", "Aromatherapy & extraction"],
   },
