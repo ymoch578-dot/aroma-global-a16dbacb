@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { CheckCircle2, MapPin, Package, Scale } from "lucide-react";
+import { CheckCircle2, Package, Scale } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { ProductCard } from "@/components/site/ProductCard";
 import { CtaSection } from "@/components/site/CtaSection";
@@ -93,7 +93,7 @@ function ProductDetailPage() {
           <Reveal delay={0.15}>
             <img
               src={product.image}
-              alt={`${product.name} — premium export grade from ${product.origin}`}
+              alt={`${product.name} — premium export grade Indonesian spice`}
               width={800}
               height={800}
               className="mx-auto w-full max-w-md rounded-3xl object-cover shadow-[var(--shadow-soft)]"
@@ -107,15 +107,10 @@ function ProductDetailPage() {
         <div className="container-site grid gap-10 lg:grid-cols-3">
           <Reveal className="lg:col-span-2">
             <div className="rounded-3xl border border-border p-8 lg:p-10">
-              <h2 className="font-display text-2xl font-bold text-foreground">Specifications</h2>
-              <dl className="mt-6 divide-y divide-border">
-                {product.specifications.map((s) => (
-                  <div key={s.label} className="flex justify-between gap-6 py-3.5 text-sm">
-                    <dt className="font-semibold text-foreground">{s.label}</dt>
-                    <dd className="text-right text-muted-foreground">{s.value}</dd>
-                  </div>
-                ))}
-              </dl>
+              <h2 className="font-display text-2xl font-bold text-foreground">About This Product</h2>
+              <div className="mt-6 space-y-4 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
+                {product.description}
+              </div>
 
               <h2 className="mt-10 font-display text-2xl font-bold text-foreground">Applications</h2>
               <ul className="mt-5 grid gap-3 sm:grid-cols-2">
@@ -132,20 +127,13 @@ function ProductDetailPage() {
           <Reveal delay={0.12}>
             <div className="space-y-5">
               <div className="rounded-3xl bg-secondary p-7">
-                <MapPin className="text-gold" size={24} />
-                <h3 className="mt-3 font-display text-lg font-bold text-foreground">Origin</h3>
-                <p className="mt-1.5 text-sm text-muted-foreground">{product.origin}</p>
-              </div>
-              <div className="rounded-3xl bg-secondary p-7">
                 <Package className="text-gold" size={24} />
                 <h3 className="mt-3 font-display text-lg font-bold text-foreground">
-                  Available Packaging
+                  Packaging Options
                 </h3>
-                <ul className="mt-1.5 space-y-1 text-sm text-muted-foreground">
-                  {product.packaging.map((p) => (
-                    <li key={p}>• {p}</li>
-                  ))}
-                </ul>
+                <p className="mt-1.5 text-sm text-muted-foreground">
+                  Packaging is available on request according to buyer needs. Common options include PP woven bags, carton boxes, vacuum packs, and private-label packing. Share your requirements and we will confirm the best solution for your market.
+                </p>
               </div>
               <div className="rounded-3xl bg-secondary p-7">
                 <Scale className="text-gold" size={24} />
