@@ -14,10 +14,9 @@ import {
 } from "lucide-react";
 import heroImg from "@/assets/hero-spices.jpg";
 import { Reveal } from "@/components/site/Reveal";
-import { Counter } from "@/components/site/Counter";
 import { ProductCard } from "@/components/site/ProductCard";
 import { CtaSection } from "@/components/site/CtaSection";
-import { PRODUCTS, STATS, PROCESS_STEPS, WHY_US, GALLERY, FAQS } from "@/lib/site-data";
+import { PRODUCTS, PROCESS_STEPS, WHY_US, GALLERY, FAQS } from "@/lib/site-data";
 import {
   Accordion,
   AccordionContent,
