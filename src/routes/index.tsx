@@ -53,7 +53,7 @@ function Index() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="eyebrow"
           >
-            Spices Export Premium Indonesia
+            PT Sukses Ekspor Mandiri
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -107,7 +107,7 @@ function Index() {
               A Trusted Partner for Premium Indonesian Spices
             </h2>
             <p className="mt-5 leading-relaxed text-muted-foreground">
-              Spices Export Premium Indonesia is an Indonesian spice export company dedicated to
+              PT Sukses Ekspor Mandiri is an Indonesian spice export company dedicated to
               bringing the world closer to the rich flavors and aromas of Indonesia's finest
               spices. We specialize in supplying high-quality cinnamon, clove, nutmeg, and
               black and white pepper to importers, food manufacturers, distributors, and
@@ -171,7 +171,7 @@ function Index() {
           <Reveal className="mb-12 text-center">
             <p className="eyebrow">Why Choose Us</p>
             <h2 className="mt-4 font-display text-3xl font-bold text-foreground lg:text-4xl">
-              Why Buyers Choose Spices Export Premium Indonesia
+              Why Buyers Choose PT Sukses Ekspor Mandiri
             </h2>
           </Reveal>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

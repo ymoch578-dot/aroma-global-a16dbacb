@@ -10,13 +10,13 @@ import { GALLERY } from "@/lib/site-data";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Spices Export Premium Indonesia" },
+      { title: "Gallery — PT Sukses Ekspor Mandiri" },
       {
         name: "description",
         content:
           "See our spices from plantation to port: harvest, processing, warehouse, packaging, and container loading in Indonesia.",
       },
-      { property: "og:title", content: "Gallery — Spices Export Premium Indonesia" },
+      { property: "og:title", content: "Gallery — PT Sukses Ekspor Mandiri" },
       {
         property: "og:description",
         content: "From Indonesian plantations to export containers — see how we work.",

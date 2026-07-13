@@ -14,13 +14,13 @@ export const Route = createFileRoute("/contact")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Contact — Request a Quote | Spices Export Premium Indonesia" },
+      { title: "Contact — Request a Quote | PT Sukses Ekspor Mandiri" },
       {
         name: "description",
         content:
           "Request a quotation for Indonesian cinnamon, clove, nutmeg, or pepper. Our export team responds within 24 hours.",
       },
-      { property: "og:title", content: "Contact — Spices Export Premium Indonesia" },
+      { property: "og:title", content: "Contact — PT Sukses Ekspor Mandiri" },
       {
         property: "og:description",
         content: "Send your inquiry — grades, pricing, and availability within 24 hours.",

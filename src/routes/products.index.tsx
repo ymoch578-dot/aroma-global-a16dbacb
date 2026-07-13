@@ -13,7 +13,7 @@ export const Route = createFileRoute("/products/")({
       {
         name: "description",
         content:
-          "Explore export-grade Indonesian cinnamon, clove, nutmeg, black pepper, and white pepper from Spices Export Premium Indonesia.",
+          "Explore export-grade Indonesian cinnamon, clove, nutmeg, black pepper, and white pepper from PT Sukses Ekspor Mandiri.",
       },
       { property: "og:title", content: "Products — Premium Indonesian Spices for Export" },
       {

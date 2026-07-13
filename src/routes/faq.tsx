@@ -13,13 +13,13 @@ import {
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "FAQ — Spices Export Premium Indonesia" },
+      { title: "FAQ — PT Sukses Ekspor Mandiri" },
       {
         name: "description",
         content:
           "Answers about MOQ, lead time, packaging, private label, shipping terms, and payment for Indonesian spice export orders.",
       },
-      { property: "og:title", content: "FAQ — Spices Export Premium Indonesia" },
+      { property: "og:title", content: "FAQ — PT Sukses Ekspor Mandiri" },
       {
         property: "og:description",
         content: "MOQ, lead time, packaging, private label, shipping, and payment — answered.",
