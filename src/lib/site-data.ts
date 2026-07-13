@@ -120,7 +120,7 @@ export const PRODUCTS: Product[] = [
     image: nutmegImg,
     origin: "Indonesia",
     specifications: [],
-    packaging: ["Available on request: PP woven bags, carton boxes, vacuum packs, private label"],
+    packaging: ["25 kg PP woven bags", "Carton boxes 10–20 kg", "Vacuum-sealed packs", "Private label available on request"],
     moq: "500 kg — full container preferred for best pricing",
     applications: ["Food manufacturing", "Bakery & dairy flavoring", "Oleoresin & essential oil", "Traditional medicine"],
   },
