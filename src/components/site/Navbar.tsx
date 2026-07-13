@@ -45,7 +45,7 @@ export function Navbar() {
               solid ? "text-primary" : "text-primary-foreground"
             }`}
           >
-            Spices Export Grade
+            Spices Premium Indonesia
           </span>
         </Link>
 
