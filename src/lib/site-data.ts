@@ -200,7 +200,7 @@ export const GALLERY = [
   { src: cinnamonAsset.url, alt: "Indonesian cassia cinnamon quills", w: 1200, h: 800, label: "Cinnamon" },
   { src: cinnamon2Asset.url, alt: "Close-up of premium cinnamon sticks", w: 1200, h: 800, label: "Cinnamon Sticks" },
   { src: cloves2Asset.url, alt: "Whole cloves on a wooden spoon", w: 1200, h: 800, label: "Clove" },
-  { src: cloves1Asset.url, alt: "Aromatic dried clove buds", w: 1200, h: 800, label: "Clove Buds" },
+  { src: cloveAsset.url, alt: "Aromatic dried clove buds", w: 1200, h: 800, label: "Clove Buds" },
   { src: nutmegAsset.url, alt: "Whole nutmeg with ground nutmeg powder", w: 1200, h: 800, label: "Nutmeg" },
   { src: nutmeg2Asset.url, alt: "Premium whole nutmeg selection", w: 1200, h: 800, label: "Nutmeg Whole" },
   { src: blackPepperAsset.url, alt: "Black peppercorns on a wooden spoon", w: 1200, h: 800, label: "Black Pepper" },
