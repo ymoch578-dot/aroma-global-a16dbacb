@@ -156,7 +156,7 @@ export const PRODUCTS: Product[] = [
     image: whitePepperImg,
     origin: "Indonesia",
     specifications: [],
-    packaging: ["Available on request: PP woven bags, vacuum packs, carton boxes, private label"],
+    packaging: ["25 kg PP woven bags with inner liner", "Vacuum-sealed packs", "Carton boxes for premium retail", "Private label available on request"],
     moq: "500 kg — full container preferred for best pricing",
     applications: ["Light sauces & soups", "Processed meat & seafood", "Premium seasoning", "Food service"],
   },
