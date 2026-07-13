@@ -1,8 +1,14 @@
-import cinnamonImg from "@/assets/product-cinnamon.jpg";
-import cloveImg from "@/assets/product-clove.jpg";
-import nutmegImg from "@/assets/product-nutmeg.jpg";
-import blackPepperImg from "@/assets/product-black-pepper.jpg";
-import whitePepperImg from "@/assets/product-white-pepper.jpg";
+import cinnamonAsset from "@/assets/cinnamon_1.png.asset.json";
+import cloveAsset from "@/assets/cloves_1.png.asset.json";
+import nutmegAsset from "@/assets/nutmeg_1.png.asset.json";
+import blackPepperAsset from "@/assets/black_pepper_1.png.asset.json";
+import whitePepperAsset from "@/assets/white_pepper_1.png.asset.json";
+
+const cinnamonImg = cinnamonAsset.url;
+const cloveImg = cloveAsset.url;
+const nutmegImg = nutmegAsset.url;
+const blackPepperImg = blackPepperAsset.url;
+const whitePepperImg = whitePepperAsset.url;
 import galleryPlantation from "@/assets/gallery-plantation.jpg";
 import galleryHarvest from "@/assets/gallery-harvest.jpg";
 import galleryWarehouse from "@/assets/gallery-warehouse.jpg";
@@ -12,7 +18,7 @@ import galleryContainer from "@/assets/gallery-container.jpg";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
-  brand: "Spices Export Grade",
+  brand: "Spices Premium Indonesia",
   tagline: "Premium Indonesian Spices for the Global Market",
   email: "sales@spices.suksesekspormandiri.com",
   emailAlt: "salessuksesekspormandiri@gmail.com",
