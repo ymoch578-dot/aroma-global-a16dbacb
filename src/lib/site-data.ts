@@ -9,12 +9,11 @@ const cloveImg = cloveAsset.url;
 const nutmegImg = nutmegAsset.url;
 const blackPepperImg = blackPepperAsset.url;
 const whitePepperImg = whitePepperAsset.url;
-import galleryPlantation from "@/assets/gallery-plantation.jpg";
-import galleryHarvest from "@/assets/gallery-harvest.jpg";
-import galleryWarehouse from "@/assets/gallery-warehouse.jpg";
-import galleryProcessing from "@/assets/gallery-processing.jpg";
-import galleryPackaging from "@/assets/gallery-packaging.jpg";
-import galleryContainer from "@/assets/gallery-container.jpg";
+import cinnamon2Asset from "@/assets/cinnamon_2.png.asset.json";
+import cloves2Asset from "@/assets/cloves_2.png.asset.json";
+import nutmeg2Asset from "@/assets/nutmeg_2.png.asset.json";
+import blackPepper2Asset from "@/assets/black_pepper_2.png.asset.json";
+import whitePepper2Asset from "@/assets/white_pepper_2.png.asset.json";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
@@ -198,12 +197,16 @@ export const WHY_US = [
 ];
 
 export const GALLERY = [
-  { src: galleryPlantation, alt: "Indonesian spice plantation at sunrise", w: 1200, h: 900, label: "Plantation" },
-  { src: galleryHarvest, alt: "Farmer hand-harvesting cloves", w: 900, h: 1200, label: "Harvest" },
-  { src: galleryWarehouse, alt: "Export warehouse with spice sacks", w: 1200, h: 900, label: "Warehouse" },
-  { src: galleryProcessing, alt: "Quality sorting and grading process", w: 900, h: 1200, label: "Processing" },
-  { src: galleryPackaging, alt: "Export packaging line", w: 1200, h: 900, label: "Packaging" },
-  { src: galleryContainer, alt: "Container loading at Indonesian port", w: 1200, h: 900, label: "Container Loading" },
+  { src: cinnamonAsset.url, alt: "Indonesian cassia cinnamon quills", w: 1200, h: 800, label: "Cinnamon" },
+  { src: cinnamon2Asset.url, alt: "Close-up of premium cinnamon sticks", w: 1200, h: 800, label: "Cinnamon Sticks" },
+  { src: cloves2Asset.url, alt: "Whole cloves on a wooden spoon", w: 1200, h: 800, label: "Clove" },
+  { src: cloveAsset.url, alt: "Aromatic dried clove buds", w: 1200, h: 800, label: "Clove Buds" },
+  { src: nutmegAsset.url, alt: "Whole nutmeg with ground nutmeg powder", w: 1200, h: 800, label: "Nutmeg" },
+  { src: nutmeg2Asset.url, alt: "Premium whole nutmeg selection", w: 1200, h: 800, label: "Nutmeg Whole" },
+  { src: blackPepperAsset.url, alt: "Black peppercorns on a wooden spoon", w: 1200, h: 800, label: "Black Pepper" },
+  { src: blackPepper2Asset.url, alt: "Bulk black peppercorns close-up", w: 1200, h: 800, label: "Black Pepper Bulk" },
+  { src: whitePepperAsset.url, alt: "White pepper seeds with herbs", w: 1200, h: 800, label: "White Pepper" },
+  { src: whitePepper2Asset.url, alt: "Muntok white peppercorns", w: 1200, h: 800, label: "White Pepper Muntok" },
 ];
 
 export const FAQS = [
