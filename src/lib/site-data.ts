@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
     image: cinnamonImg,
     origin: "Indonesia",
     specifications: [],
-    packaging: ["Available on request: PP woven bags, carton boxes, vacuum packs, private label"],
+    packaging: ["25 kg PP woven bags with inner liner", "Carton boxes 10–20 kg", "Vacuum-sealed retail packs", "Private label available on request"],
     moq: "1 x 20 ft container (approx. 8–10 tons) — smaller trial orders negotiable",
     applications: ["Bakery & confectionery", "Beverage & tea blends", "Seasoning industry", "Aromatherapy & extraction"],
   },
