@@ -17,13 +17,13 @@ import { WHY_US } from "@/lib/site-data";
 export const Route = createFileRoute("/why-choose-us")({
   head: () => ({
     meta: [
-      { title: "Why Choose Us — PT Sukses Ekspor Mandiri" },
+      { title: "Why Choose Us — Spices Export Premium Indonesia" },
       {
         name: "description",
         content:
           "Reliable supply chain, premium quality selection, export documentation support, and responsive service — why global buyers choose us.",
       },
-      { property: "og:title", content: "Why Choose Us — PT Sukses Ekspor Mandiri" },
+      { property: "og:title", content: "Why Choose Us — Spices Export Premium Indonesia" },
       {
         property: "og:description",
         content: "Reliable supply, premium quality, and responsive export service for global buyers.",

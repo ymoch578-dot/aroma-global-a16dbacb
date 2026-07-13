@@ -22,7 +22,7 @@ export const Route = createFileRoute("/products/$slug")({
       meta: [
         { title: `${product.name} — Indonesian ${product.name} Exporter` },
         { name: "description", content: product.short },
-        { property: "og:title", content: `${product.name} — PT Sukses Ekspor Mandiri` },
+        { property: "og:title", content: `${product.name} — Spices Export Premium Indonesia` },
         { property: "og:description", content: product.short },
         { property: "og:type", content: "product" },
         { property: "og:url", content: `/products/${params.slug}` },
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/products/$slug")({
             "@type": "Product",
             name: product.name,
             description: product.short,
-            brand: { "@type": "Organization", name: "PT Sukses Ekspor Mandiri" },
+            brand: { "@type": "Organization", name: "Spices Export Premium Indonesia" },
             countryOfOrigin: "ID",
           }),
         },
@@ -131,9 +131,14 @@ function ProductDetailPage() {
                 <h3 className="mt-3 font-display text-lg font-bold text-foreground">
                   Packaging Options
                 </h3>
-                <p className="mt-1.5 text-sm text-muted-foreground">
-                  Packaging is available on request according to buyer needs. Common options include PP woven bags, carton boxes, vacuum packs, and private-label packing. Share your requirements and we will confirm the best solution for your market.
-                </p>
+                <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
+                  {product.packaging.map((p) => (
+                    <li key={p} className="flex gap-2">
+                      <span className="text-gold">•</span>
+                      {p}
+                    </li>
+                  ))}
+                </ul>
               </div>
               <div className="rounded-3xl bg-secondary p-7">
                 <Scale className="text-gold" size={24} />

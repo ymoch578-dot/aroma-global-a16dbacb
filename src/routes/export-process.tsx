@@ -7,13 +7,13 @@ import { PROCESS_STEPS } from "@/lib/site-data";
 export const Route = createFileRoute("/export-process")({
   head: () => ({
     meta: [
-      { title: "Export Process — PT Sukses Ekspor Mandiri" },
+      { title: "Export Process — Spices Export Premium Indonesia" },
       {
         name: "description",
         content:
           "Our transparent 8-step export process: inquiry, sampling, negotiation, production, quality checking, packing, and shipping.",
       },
-      { property: "og:title", content: "Export Process — PT Sukses Ekspor Mandiri" },
+      { property: "og:title", content: "Export Process — Spices Export Premium Indonesia" },
       {
         property: "og:description",
         content: "A transparent 8-step journey from your inquiry to container delivery.",

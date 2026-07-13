@@ -8,13 +8,13 @@ import plantationImg from "@/assets/gallery-plantation.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — PT Sukses Ekspor Mandiri" },
+      { title: "About Us — Spices Export Premium Indonesia" },
       {
         name: "description",
         content:
-          "Learn about PT Sukses Ekspor Mandiri, an Indonesian spice exporter connecting origin farmers with global buyers through quality and transparency.",
+          "Learn about Spices Export Premium Indonesia, an Indonesian spice exporter connecting origin farmers with global buyers through quality and transparency.",
       },
-      { property: "og:title", content: "About Us — PT Sukses Ekspor Mandiri" },
+      { property: "og:title", content: "About Us — Spices Export Premium Indonesia" },
       {
         property: "og:description",
         content: "Indonesian spice exporter built on quality, transparency, and long-term partnership.",
@@ -39,7 +39,7 @@ function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title="A Trusted Bridge Between Indonesian Farms and Global Markets"
-        subtitle="PT Sukses Ekspor Mandiri exists to make sourcing Indonesian spices simple, transparent, and dependable for buyers worldwide."
+        subtitle="Spices Export Premium Indonesia exists to make sourcing Indonesian spices simple, transparent, and dependable for buyers worldwide."
       />
 
       <section className="py-20 lg:py-28">
