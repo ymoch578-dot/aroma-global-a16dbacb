@@ -131,8 +131,16 @@ function ProductDetailPage() {
                 <h3 className="mt-3 font-display text-lg font-bold text-foreground">
                   Packaging Options
                 </h3>
-                <p className="mt-1.5 text-sm text-muted-foreground">
-                  Packaging is available on request according to buyer needs. Common options include PP woven bags, carton boxes, vacuum packs, and private-label packing. Share your requirements and we will confirm the best solution for your market.
+                <ul className="mt-4 space-y-2">
+                  {product.packaging.map((pkg) => (
+                    <li key={pkg} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 size={17} className="shrink-0 text-olive" />
+                      {pkg}
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-4 text-sm text-muted-foreground">
+                  Custom packaging is available on request to match your market and brand requirements.
                 </p>
               </div>
               <div className="rounded-3xl bg-secondary p-7">
