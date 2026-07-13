@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Premium Indonesian spices for the global market. Trusted B2B exporter of cinnamon, clove, nutmeg, black pepper, and white pepper.",
       },
-      { name: "author", content: "PT Sukses Ekspor Mandiri" },
+      { name: "author", content: "Spices Export Premium Indonesia" },
       { property: "og:title", content: "Premium Indonesian Spice Exporter" },
       {
         property: "og:description",
@@ -94,7 +94,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Premium Indonesian spices for the global market. Trusted B2B exporter of cinnamon, clove, nutmeg, black pepper, and white pepper.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "PT Sukses Ekspor Mandiri" },
+      { property: "og:site_name", content: "Spices Export Premium Indonesia" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Premium Indonesian Spice Exporter" },
       { name: "twitter:description", content: "Premium Indonesian spices for the global market. Trusted B2B exporter of cinnamon, clove, nutmeg, black pepper, and white pepper." },
@@ -119,7 +119,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "PT Sukses Ekspor Mandiri",
+          name: "Spices Export Premium Indonesia",
           description: "Premium Indonesian spice exporter for the global B2B market.",
           slogan: "Premium Indonesian Spices for the Global Market",
           address: { "@type": "PostalAddress", addressCountry: "ID", addressLocality: "Jakarta" },

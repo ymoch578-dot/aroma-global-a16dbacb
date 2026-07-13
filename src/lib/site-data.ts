@@ -11,7 +11,7 @@ import galleryPackaging from "@/assets/gallery-packaging.jpg";
 import galleryContainer from "@/assets/gallery-container.jpg";
 
 export const COMPANY = {
-  name: "PT Sukses Ekspor Mandiri",
+  name: "Spices Export Premium Indonesia",
   brand: "Spices Export Grade",
   tagline: "Premium Indonesian Spices for the Global Market",
   email: "sales@spices.suksesekspormandiri.com",

@@ -22,7 +22,7 @@ export const Route = createFileRoute("/products/$slug")({
       meta: [
         { title: `${product.name} — Indonesian ${product.name} Exporter` },
         { name: "description", content: product.short },
-        { property: "og:title", content: `${product.name} — PT Sukses Ekspor Mandiri` },
+        { property: "og:title", content: `${product.name} — Spices Export Premium Indonesia` },
         { property: "og:description", content: product.short },
         { property: "og:type", content: "product" },
         { property: "og:url", content: `/products/${params.slug}` },
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/products/$slug")({
             "@type": "Product",
             name: product.name,
             description: product.short,
-            brand: { "@type": "Organization", name: "PT Sukses Ekspor Mandiri" },
+            brand: { "@type": "Organization", name: "Spices Export Premium Indonesia" },
             countryOfOrigin: "ID",
           }),
         },

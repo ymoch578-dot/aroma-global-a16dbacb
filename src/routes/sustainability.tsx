@@ -8,13 +8,13 @@ import harvestImg from "@/assets/gallery-harvest.jpg";
 export const Route = createFileRoute("/sustainability")({
   head: () => ({
     meta: [
-      { title: "Sustainability — PT Sukses Ekspor Mandiri" },
+      { title: "Sustainability — Spices Export Premium Indonesia" },
       {
         name: "description",
         content:
           "Responsible sourcing, long-term farmer partnerships, product traceability, and continuous quality improvement in Indonesian spice export.",
       },
-      { property: "og:title", content: "Sustainability — PT Sukses Ekspor Mandiri" },
+      { property: "og:title", content: "Sustainability — Spices Export Premium Indonesia" },
       {
         property: "og:description",
         content: "Responsible sourcing and honest quality commitment at every step.",
