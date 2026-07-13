@@ -9,12 +9,11 @@ const cloveImg = cloveAsset.url;
 const nutmegImg = nutmegAsset.url;
 const blackPepperImg = blackPepperAsset.url;
 const whitePepperImg = whitePepperAsset.url;
-import galleryPlantation from "@/assets/gallery-plantation.jpg";
-import galleryHarvest from "@/assets/gallery-harvest.jpg";
-import galleryWarehouse from "@/assets/gallery-warehouse.jpg";
-import galleryProcessing from "@/assets/gallery-processing.jpg";
-import galleryPackaging from "@/assets/gallery-packaging.jpg";
-import galleryContainer from "@/assets/gallery-container.jpg";
+import cinnamon2Asset from "@/assets/cinnamon_2.png.asset.json";
+import cloves2Asset from "@/assets/cloves_2.png.asset.json";
+import nutmeg2Asset from "@/assets/nutmeg_2.png.asset.json";
+import blackPepper2Asset from "@/assets/black_pepper_2.png.asset.json";
+import whitePepper2Asset from "@/assets/white_pepper_2.png.asset.json";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
