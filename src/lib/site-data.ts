@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     image: cloveImg,
     origin: "Indonesia",
     specifications: [],
-    packaging: ["Available on request: PP woven bags, vacuum packs, carton boxes, private label"],
+    packaging: ["25 kg / 50 kg PP woven bags", "Vacuum-sealed packs for premium retail", "Carton boxes for air freight", "Private label available on request"],
     moq: "500 kg — full container preferred for best pricing",
     applications: ["Food & seasoning", "Cigarette industry", "Essential oil extraction", "Pharmaceutical & oral care"],
   },
