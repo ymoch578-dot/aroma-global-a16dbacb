@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
     image: blackPepperImg,
     origin: "Indonesia",
     specifications: [],
-    packaging: ["Available on request: PP woven bags, jumbo bags, carton boxes, private label"],
+    packaging: ["25 kg / 50 kg PP woven bags", "Jumbo bags 500–1000 kg", "Carton boxes for retail", "Private label available on request"],
     moq: "1 x 20 ft container (approx. 13–15 tons) — trial orders negotiable",
     applications: ["Seasoning & spice blends", "Meat processing", "Food service & retail", "Extraction industry"],
   },
