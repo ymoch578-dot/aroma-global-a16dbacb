@@ -16,14 +16,23 @@ import blackPepper2Asset from "@/assets/black_pepper_2.png.asset.json";
 import whitePepper2Asset from "@/assets/white_pepper_2.png.asset.json";
 import cinnamon3Asset from "@/assets/cinnamon_3.png.asset.json";
 import cinnamon4Asset from "@/assets/cinnamon_4.png.asset.json";
+import cinnamon5Asset from "@/assets/cinnamon_5.png.asset.json";
 import cloves3Asset from "@/assets/cloves_3.png.asset.json";
 import cloves4Asset from "@/assets/cloves_4.png.asset.json";
+import cloves5Asset from "@/assets/cloves_5.png.asset.json";
+import cloves6Asset from "@/assets/cloves_6.png.asset.json";
 import nutmeg3Asset from "@/assets/nutmeg_3.png.asset.json";
 import nutmeg4Asset from "@/assets/nutmeg_4.png.asset.json";
+import nutmeg5Asset from "@/assets/nutmeg_5.png.asset.json";
+import nutmeg6Asset from "@/assets/nutmeg_6.png.asset.json";
 import blackPepper3Asset from "@/assets/black_pepper_3.png.asset.json";
 import blackPepper4Asset from "@/assets/black_pepper_4.png.asset.json";
+import blackPepper5Asset from "@/assets/black_pepper_5.png.asset.json";
+import blackPepper6Asset from "@/assets/black_pepper_6.png.asset.json";
 import whitePepper3Asset from "@/assets/white_pepper_3.png.asset.json";
 import whitePepper4Asset from "@/assets/white_pepper_4.png.asset.json";
+import whitePepper5Asset from "@/assets/white_pepper_5.png.asset.json";
+import whitePepper6Asset from "@/assets/white_pepper_6.png.asset.json";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
@@ -227,6 +236,15 @@ export const GALLERY = [
   { src: blackPepper4Asset.url, alt: "Top-down view of black peppercorns", w: 1200, h: 800, label: "Black Pepper Top" },
   { src: whitePepper3Asset.url, alt: "White pepper seeds with wooden scoop", w: 1200, h: 800, label: "White Pepper Scoop" },
   { src: whitePepper4Asset.url, alt: "White pepper seeds in a wooden bowl", w: 1200, h: 800, label: "White Pepper Bowl" },
+  { src: cinnamon5Asset.url, alt: "Close-up of cinnamon sticks and cinnamon powder", w: 1200, h: 800, label: "Cinnamon Close-Up" },
+  { src: cloves5Asset.url, alt: "Whole cloves in a white bowl", w: 1200, h: 800, label: "Clove Bowl" },
+  { src: cloves6Asset.url, alt: "Cloves in a wooden bowl on a tabletop", w: 1200, h: 800, label: "Clove Wooden Bowl" },
+  { src: nutmeg5Asset.url, alt: "Nutmeg seeds with ground nutmeg powder", w: 1200, h: 800, label: "Nutmeg Powder" },
+  { src: nutmeg6Asset.url, alt: "Whole nutmeg seeds in a white bowl", w: 1200, h: 800, label: "Nutmeg Bowl" },
+  { src: blackPepper5Asset.url, alt: "Black peppercorns in a wooden bowl with scoop", w: 1200, h: 800, label: "Black Pepper Scoop" },
+  { src: blackPepper6Asset.url, alt: "Black peppercorns in a white bowl", w: 1200, h: 800, label: "Black Pepper White Bowl" },
+  { src: whitePepper5Asset.url, alt: "White pepper seeds in a wooden spoon", w: 1200, h: 800, label: "White Pepper Spoon" },
+  { src: whitePepper6Asset.url, alt: "White pepper seeds on a dark wooden spoon", w: 1200, h: 800, label: "White Pepper Dark Spoon" },
 ];
 
 export const FAQS = [
