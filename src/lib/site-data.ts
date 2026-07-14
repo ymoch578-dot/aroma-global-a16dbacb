@@ -14,6 +14,16 @@ import cloves2Asset from "@/assets/cloves_2.png.asset.json";
 import nutmeg2Asset from "@/assets/nutmeg_2.png.asset.json";
 import blackPepper2Asset from "@/assets/black_pepper_2.png.asset.json";
 import whitePepper2Asset from "@/assets/white_pepper_2.png.asset.json";
+import cinnamon3Asset from "@/assets/cinnamon_3.png.asset.json";
+import cinnamon4Asset from "@/assets/cinnamon_4.png.asset.json";
+import cloves3Asset from "@/assets/cloves_3.png.asset.json";
+import cloves4Asset from "@/assets/cloves_4.png.asset.json";
+import nutmeg3Asset from "@/assets/nutmeg_3.png.asset.json";
+import nutmeg4Asset from "@/assets/nutmeg_4.png.asset.json";
+import blackPepper3Asset from "@/assets/black_pepper_3.png.asset.json";
+import blackPepper4Asset from "@/assets/black_pepper_4.png.asset.json";
+import whitePepper3Asset from "@/assets/white_pepper_3.png.asset.json";
+import whitePepper4Asset from "@/assets/white_pepper_4.png.asset.json";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
@@ -207,6 +217,16 @@ export const GALLERY = [
   { src: blackPepper2Asset.url, alt: "Bulk black peppercorns close-up", w: 1200, h: 800, label: "Black Pepper Bulk" },
   { src: whitePepperAsset.url, alt: "White pepper seeds with herbs", w: 1200, h: 800, label: "White Pepper" },
   { src: whitePepper2Asset.url, alt: "Muntok white peppercorns", w: 1200, h: 800, label: "White Pepper Muntok" },
+  { src: cinnamon3Asset.url, alt: "Bundles of Indonesian cinnamon sticks", w: 1200, h: 800, label: "Cinnamon Bundles" },
+  { src: cinnamon4Asset.url, alt: "Cinnamon sticks on burlap cloth", w: 1200, h: 800, label: "Cinnamon Selection" },
+  { src: cloves3Asset.url, alt: "Whole dried cloves on a plate", w: 1200, h: 800, label: "Clove Plate" },
+  { src: cloves4Asset.url, alt: "Aromatic clove buds close-up", w: 1200, h: 800, label: "Clove Close-Up" },
+  { src: nutmeg3Asset.url, alt: "Whole and ground nutmeg in a wooden bowl", w: 1200, h: 800, label: "Nutmeg Ground" },
+  { src: nutmeg4Asset.url, alt: "Grated nutmeg with whole seeds", w: 1200, h: 800, label: "Nutmeg Grated" },
+  { src: blackPepper3Asset.url, alt: "Black peppercorns in a marble bowl", w: 1200, h: 800, label: "Black Pepper Bowl" },
+  { src: blackPepper4Asset.url, alt: "Top-down view of black peppercorns", w: 1200, h: 800, label: "Black Pepper Top" },
+  { src: whitePepper3Asset.url, alt: "White pepper seeds with wooden scoop", w: 1200, h: 800, label: "White Pepper Scoop" },
+  { src: whitePepper4Asset.url, alt: "White pepper seeds in a wooden bowl", w: 1200, h: 800, label: "White Pepper Bowl" },
 ];
 
 export const FAQS = [
