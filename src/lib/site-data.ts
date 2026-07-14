@@ -33,6 +33,13 @@ import whitePepper3Asset from "@/assets/white_pepper_3.png.asset.json";
 import whitePepper4Asset from "@/assets/white_pepper_4.png.asset.json";
 import whitePepper5Asset from "@/assets/white_pepper_5.png.asset.json";
 import whitePepper6Asset from "@/assets/white_pepper_6.png.asset.json";
+import blackPepper7Asset from "@/assets/black_pepper_7.png.asset.json";
+import blackPepper8Asset from "@/assets/black_pepper_8.png.asset.json";
+import cloves7Asset from "@/assets/cloves_7.png.asset.json";
+import cloves8Asset from "@/assets/cloves_8.png.asset.json";
+import nutmeg7Asset from "@/assets/nutmeg_7.png.asset.json";
+import whitePepper7Asset from "@/assets/white_pepper_7.png.asset.json";
+import whitePepper8Asset from "@/assets/white_pepper_8.png.asset.json";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
