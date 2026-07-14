@@ -33,6 +33,13 @@ import whitePepper3Asset from "@/assets/white_pepper_3.png.asset.json";
 import whitePepper4Asset from "@/assets/white_pepper_4.png.asset.json";
 import whitePepper5Asset from "@/assets/white_pepper_5.png.asset.json";
 import whitePepper6Asset from "@/assets/white_pepper_6.png.asset.json";
+import blackPepper7Asset from "@/assets/black_pepper_7.png.asset.json";
+import blackPepper8Asset from "@/assets/black_pepper_8.png.asset.json";
+import cloves7Asset from "@/assets/cloves_7.png.asset.json";
+import cloves8Asset from "@/assets/cloves_8.png.asset.json";
+import nutmeg7Asset from "@/assets/nutmeg_7.png.asset.json";
+import whitePepper7Asset from "@/assets/white_pepper_7.png.asset.json";
+import whitePepper8Asset from "@/assets/white_pepper_8.png.asset.json";
 
 export const COMPANY = {
   name: "PT Sukses Ekspor Mandiri",
@@ -245,6 +252,13 @@ export const GALLERY = [
   { src: blackPepper6Asset.url, alt: "Black peppercorns in a white bowl", w: 1200, h: 800, label: "Black Pepper White Bowl" },
   { src: whitePepper5Asset.url, alt: "White pepper seeds in a wooden spoon", w: 1200, h: 800, label: "White Pepper Spoon" },
   { src: whitePepper6Asset.url, alt: "White pepper seeds on a dark wooden spoon", w: 1200, h: 800, label: "White Pepper Dark Spoon" },
+  { src: blackPepper7Asset.url, alt: "Black peppercorns scattered on a slate surface", w: 1200, h: 800, label: "Black Pepper Slate" },
+  { src: blackPepper8Asset.url, alt: "Black peppercorns in an olive wood bowl with scoop", w: 1200, h: 800, label: "Black Pepper Olive Bowl" },
+  { src: cloves7Asset.url, alt: "Whole cloves in a terracotta bowl", w: 1200, h: 800, label: "Clove Terracotta" },
+  { src: cloves8Asset.url, alt: "Whole cloves in a wooden bowl on a cutting board", w: 1200, h: 800, label: "Clove Cutting Board" },
+  { src: nutmeg7Asset.url, alt: "Close-up of whole nutmeg seeds", w: 1200, h: 800, label: "Nutmeg Close-Up" },
+  { src: whitePepper7Asset.url, alt: "White peppercorns close-up texture", w: 1200, h: 800, label: "White Pepper Texture" },
+  { src: whitePepper8Asset.url, alt: "White peppercorns in a wooden spoon", w: 1200, h: 800, label: "White Pepper Wooden Spoon" },
 ];
 
 export const FAQS = [
